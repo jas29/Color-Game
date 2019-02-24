@@ -1,0 +1,101 @@
+body{
+	background:#232323;
+	margin: 0;
+	font-family: Monsterrat,Avenir;
+}
+h1{
+	color:white;
+	text-align: center;
+	background: steelblue;
+	line-height: 1.2;
+	margin:0;
+	padding: 10px;
+	/*setting margin to zero will het 0 margin from all sides*/
+	font-weight:normal;
+	text-transform: uppercase;
+
+}
+
+.square{
+	width:30%;
+	background:purple;
+	/*To add space between the divs*/
+	padding-bottom: 30%; 
+	float:left;
+	margin:1.66%;
+	/*The border radius provides the curve in the squares*/
+	border-radius: 50%;
+	transition: all 0.5s;
+	/*for safari support*/
+	-webkit-transition :all 0.5s;
+	/*for mozrilla support*/
+	-webkit-transition:all 0.5s;
+}
+#container{
+	max-width: 600px;
+	margin:0 auto;
+	margin-top: 20px;
+}
+
+
+
+#stripe{
+	height:30px;
+	background:white;
+	color:black;
+	text-align: center;
+}
+
+.selected{
+	background: steelblue;
+	color:white;
+}
+
+#colorDisplay{
+	font-size: 200%;
+}
+
+button{
+	border:none;
+	background: none;
+	height:100%;
+	color:steelblue;
+	font-weight:700;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.7s;
+	outline:none;
+
+}
+
+button:hover{
+	color:white;
+	background: steelblue;
+}
+
+#message{
+	display: inline-block;
+	width:20%;
+}
+
+#scoreDisplay{
+	color:steelblue;
+	/*margin: auto;*/
+	text-align:left;
+	font-weight:700;
+	letter-spacing: 1px;
+	font-size: 20px;
+	/*display: inline-block;*/
+	float: left;
+	height: 100%;
+
+}
+
+
+
+
+
+
+
+
+
